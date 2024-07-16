@@ -1,0 +1,81 @@
+Creating an HTML learning plan for 30 days can be a great way to build a strong foundation in web development. Here's a structured plan to help you learn HTML step-by-step:
+
+### Week 1: Introduction to HTML
+
+#### Day 1-2: Basics of HTML
+- Introduction to HTML
+- Setting up a basic HTML document
+- Understanding tags, elements, and attributes
+
+#### Day 3-4: Basic Tags and Elements
+- Headings (`<h1>` to `<h6>`)
+- Paragraphs (`<p>`)
+- Line breaks (`<br>`) and horizontal rules (`<hr>`)
+
+#### Day 5-7: Text Formatting
+- Bold (`<b>`), Italics (`<i>`), Underline (`<u>`)
+- Superscript (`<sup>`) and Subscript (`<sub>`)
+- Comments (`<!-- comment -->`)
+
+### Week 2: Building Blocks
+
+#### Day 8-9: Lists
+- Ordered lists (`<ol>`)
+- Unordered lists (`<ul>`)
+- List items (`<li>`)
+
+#### Day 10-11: Links and Images
+- Hyperlinks (`<a>`)
+- Images (`<img>`)
+- Using attributes like `href`, `src`, `alt`, and `title`
+
+#### Day 12-14: Tables
+- Table structure (`<table>`)
+- Table rows (`<tr>`)
+- Table data (`<td>`)
+- Table headers (`<th>`)
+
+### Week 3: Advanced Elements
+
+#### Day 15-16: Forms
+- Form structure (`<form>`)
+- Input types (`<input>`, `<textarea>`, `<button>`)
+- Labels (`<label>`)
+- Select dropdowns (`<select>`, `<option>`)
+
+#### Day 17-18: Semantic HTML
+- Header (`<header>`)
+- Footer (`<footer>`)
+- Navigation (`<nav>`)
+- Sections and articles (`<section>`, `<article>`)
+
+#### Day 19-21: Multimedia
+- Embedding videos (`<video>`)
+- Embedding audio (`<audio>`)
+- Using `iframe` for external content
+
+### Week 4: Project and Review
+
+#### Day 22-24: Basic HTML Project
+- Create a simple personal webpage
+- Apply learned concepts: headings, paragraphs, lists, links, images, and tables
+
+#### Day 25-26: Accessibility
+- Understanding web accessibility
+- Using `alt` attributes
+- Adding `aria` labels
+
+#### Day 27-28: Review and Practice
+- Review all learned topics
+- Practice creating different HTML elements
+
+#### Day 29-30: Advanced Project
+- Create a more complex webpage (e.g., a small portfolio or a blog)
+- Use forms, semantic HTML, multimedia, and other advanced elements
+
+### Additional Resources:
+- [MDN Web Docs on HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [W3Schools HTML Tutorial](https://www.w3schools.com/html/)
+- [freeCodeCamp HTML and HTML5 Course](https://www.freecodecamp.org/learn/responsive-web-design/#basic-html-and-html5)
+
+This plan provides a balanced approach, allowing you to understand and practice each concept thoroughly. Adjust the pace based on your learning speed and comfort level.

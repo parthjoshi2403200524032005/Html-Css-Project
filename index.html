@@ -1,225 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-   
+
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            font-family: 'Poppins', sans-serif;
-        }
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
+      }
 
-        nav {
-            background-color: #F5F5F5;
-            justify-content: space-between;
-            display: flex;
-            height: 130px;
-            padding: 0%;
-            text-align: center;
-            align-items: center;
-            position: fixed;
-            width: 100%;
-            top: 0%;
-        }
+      nav {
+        background-color: #f5f5f5;
+        justify-content: space-between;
+        display: flex;
+        height: 130px;
+        padding: 0%;
+        text-align: center;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        top: 0%;
+      }
 
-        .logo {
-            display: flex;
-            gap: 20px;
-        }
+      .logo {
+        display: flex;
+        gap: 20px;
+      }
 
-        .menu {
-            list-style: none;
-            background-color: #F5F5F5;
-            text-align: center;
-            padding: 0;
-            margin-right: 80px;
-            display: flex;
-            gap: 20px;
-            font-size: 15px;
-        }
+      .menu {
+        list-style: none;
+        background-color: #f5f5f5;
+        text-align: center;
+        padding: 0;
+        margin-right: 80px;
+        display: flex;
+        gap: 20px;
+        font-size: 15px;
+      }
 
-        .icon {
-            margin-left: 80px;
-        }
+      .icon {
+        margin-left: 80px;
+      }
 
-        li {
-            color: gray;
-        }
+      li {
+        color: gray;
+      }
 
-        li:hover {
-            color: rgb(187, 173, 117);
-            cursor: pointer;
-        }
+      li:hover {
+        color: rgb(187, 173, 117);
+        cursor: pointer;
+      }
 
-        .main {
-            background-color: #F5F5F5;
-            width: 90.4%;
-            height: 800px;
-            margin-top: 130px;
-            padding-left: 80px;
-            padding-right: 80px;
-        }
+      .main {
+        background-color: #f5f5f5;
+        width: 90.4%;
+        height: 800px;
+        margin-top: 130px;
+        padding-left: 80px;
+        padding-right: 80px;
+      }
 
-        .image {
-            background-image: url('./image/ab01d1ff-12c9-4c68-8281-d86db6821880.jpg');
-            /* Replace with your image path */
-            background-size: cover;
-            height: 750px;
-            width: 100%;
-            background-attachment: fixed;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      .image {
+        background-image: url("./image/ab01d1ff-12c9-4c68-8281-d86db6821880.jpg");
+        /* Replace with your image path */
+        background-size: cover;
+        height: 750px;
+        width: 100%;
+        background-attachment: fixed;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
 
-        }
+      .text1 {
+        text-align: center;
+        font-size: 70px;
+        padding-top: 200px;
+        color: white;
+        width: 620px;
+        padding-left: 50px;
+      }
 
-        .text1 {
-            text-align: center;
-            font-size: 70px;
-            padding-top: 200px;
-            color: white;
-            width: 620px;
-            padding-left: 50px;
-        }
+      .button {
+        background-color: #f5f5f5;
+        width: 150px;
+        height: 20px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding: 10px 20px 10px 20px;
+        margin-top: 30px;
+        color: gray;
+        font-size: 12px;
+        margin-left: 260px;
+      }
 
-        .button {
-            background-color: #F5F5F5;
-            width: 150px;
-            height: 20px;
-            align-items: center;
-            text-align: center;
-            justify-content: center;
-            padding: 10px 20px 10px 20px;
-            margin-top: 30px;
-            color: gray;
-            font-size: 12px;
-            margin-left: 260px;
-        }
+      .button:hover {
+        color: rgb(84, 69, 36);
+      }
 
-        .button:hover {
-            color: rgb(84, 69, 36);
-        }
+      .main2 {
+        display: flex;
+        justify-content: space-between;
+        background-color: #f5f5f5;
+        width: 100%;
+        height: 700px;
+      }
 
-        .main2 {
-            display: flex;
-            justify-content: space-between;
-            background-color: #F5F5F5;
-            width: 100%;
-            height: 700px;
-        }
+      .image2 {
+        background-image: url("./image/6c55094b-0d1f-4111-978c-c05e5b83a972.jpg");
+        background-position: left bottom;
+        background-size: 850px 850px;
+        height: 650px;
+        width: 750px;
+        background-attachment: fixed;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-left: 80px;
+      }
 
-        .image2 {
-            background-image: url('./image/6c55094b-0d1f-4111-978c-c05e5b83a972.jpg');
-            background-position: left bottom;
-            background-size: 850px 850px;
-            height: 650px;
-            width: 750px;
-            background-attachment: fixed;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            margin-left: 80px;
-            /* overflow: visible; */
-        }
+      .text-div {
+        background-color: #f5f5f5;
+        height: 450px;
+        width: 700px;
+        margin-right: 80px;
+        padding-top: 250px;
+      }
 
-        .text-div {
-            background-color: #F5F5F5;
-            height: 450px;
-            width: 700px;
-            margin-right: 80px;
-            padding-top: 250px;
+      .text2 {
+        text-align: center;
+        font-size: 40px;
 
-        }
+        color: #1e1e1e;
+        width: 620px;
+      }
+      .para {
+        color: gray;
+        font-size: 14px;
+        width: 420px;
+        margin-left: 100px;
+        margin-top: 20px;
+        font-family: "Poppins", sans-serif;
+      }
 
-        .text2 {
-            text-align: center;
-            font-size: 40px;
-         
-            color: #1E1E1E;
-            width: 620px;
-        
-        }
-        .para{
-            color: gray;
-            font-size: 14px;
-            width: 420px;
-            margin-left: 100px;
-            margin-top: 20px;
-            font-family: 'Poppins', sans-serif;
-        }
+      .button2 {
+        background-color: #1e1e1e;
+        width: 150px;
+        height: 20px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding: 10px 15px 10px 15px;
+        margin-top: 50px;
+        color: white;
+        font-size: 15px;
+        margin-left: 100px;
+      }
 
-        .button2 {
-            background-color: #1E1E1E;
-            width: 150px;
-            height: 20px;   
-            align-items: center;
-            text-align: center;
-            justify-content: center;
-            padding: 10px 15px 10px 15px;
-            margin-top: 50px;
-            color: white;
-            font-size: 15px;
-            margin-left: 100px;
-        }
-
-        .button2:hover {
-            background-color: antiquewhite;
-            color: black;
-            transition: all 0.8s ease-in-out;
-        }
+      .button2:hover {
+        background-color: antiquewhite;
+        color: black;
+        transition: all 0.8s ease-in-out;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <nav>
-        <div class="logo">
-            <svg preserveAspectRatio="xMidYMid meet" data-bbox="20.25 31.386 160 135.979"
-                viewBox="20.25 31.386 160 135.979" height="30" width="30" xmlns="http://www.w3.org/2000/svg"
-                data-type="color" role="img" aria-label="Homepage" class="icon">
-
-                <g>
-                    <path fill="#B46A2A"
-                        d="M91.47 42.012L80.845 31.386 20.25 92.439v74.926h15.027V99.744l-.174-.085L91.47 42.012z"
-                        data-color="1"></path>
-                    <path fill="#B46A2A"
-                        d="M130.098 42.04l.028-.028L119.5 31.386 52.313 99.721l.022.023h-.022v67.621h99.159v-15.027l-.495-52.594h-.023l.023-.023-32.186-30.839-10.248 10.248 27.407 26.713v46.495H67.339V105.87l52.149-53.039 45.822 44.506-.175.085.088 69.943h15.027V92.439L130.098 42.04z"
-                        data-color="1"></path>
-                </g>
-            </svg>
-            <h1>M&B Remodeling</h1>
-        </div>
-        <ul class="menu">
-            <li>Home</li>
-            <li> About</li>
-            <li>Services</li>
-            <li>Work</li>
-            <li>Contact</li>
-
-        </ul>
+      <div class="logo">
+        <svg
+          preserveAspectRatio="xMidYMid meet"
+          data-bbox="20.25 31.386 160 135.979"
+          viewBox="20.25 31.386 160 135.979"
+          height="30"
+          width="30"
+          xmlns="http://www.w3.org/2000/svg"
+          data-type="color"
+          role="img"
+          aria-label="Homepage"
+          class="icon"
+        >
+          <g>
+            <path
+              fill="#B46A2A"
+              d="M91.47 42.012L80.845 31.386 20.25 92.439v74.926h15.027V99.744l-.174-.085L91.47 42.012z"
+              data-color="1"
+            ></path>
+            <path
+              fill="#B46A2A"
+              d="M130.098 42.04l.028-.028L119.5 31.386 52.313 99.721l.022.023h-.022v67.621h99.159v-15.027l-.495-52.594h-.023l.023-.023-32.186-30.839-10.248 10.248 27.407 26.713v46.495H67.339V105.87l52.149-53.039 45.822 44.506-.175.085.088 69.943h15.027V92.439L130.098 42.04z"
+              data-color="1"
+            ></path>
+          </g>
+        </svg>
+        <h1>M&B Remodeling</h1>
+      </div>
+      <ul class="menu">
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Work</li>
+        <li>Contact</li>
+      </ul>
     </nav>
 
     <div class="main">
-
-        <div class="image">
-            <h1 class="text1">Exceptional Home
-                Remodeling & Renovations</h1>
-            <div class="button">Get A Free Estimate</div>
-        </div>
-
+      <div class="image">
+        <h1 class="text1">Exceptional Home Remodeling & Renovations</h1>
+        <div class="button">Get A Free Estimate</div>
+      </div>
     </div>
 
     <div class="main2">
-        <div class="image2"></div>
-        <div class="text-div">
-            <h1 class="text2">
-                 The Leading Bay Area Remodeling Company</h1>
-            <p class="para">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double
-                click me to add your own content and make changes to the font.</p>
-            <div class="button2"> More About Us</div>
-        </div>
+      <div class="image2"></div>
+      <div class="text-div">
+        <h1 class="text2">The Leading Bay Area Remodeling Company</h1>
+        <p class="para">
+          I'm a paragraph. Click here to add your own text and edit me. It’s
+          easy. Just click “Edit Text” or double click me to add your own
+          content and make changes to the font.
+        </p>
+        <div class="button2">More About Us</div>
+      </div>
     </div>
-
-</body>
-
+  </body>
 </html>
